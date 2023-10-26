@@ -26,11 +26,8 @@ cancel_button = [[InlineKeyboardButton(
     "Cancel 🔐", callback_data="cancel_process")]]
 
 
-@Client.on_message(filters.private & filters.command("batch") & filters.user(ADMINS))
+@Client.on_message(filters.private & filters.command("batch"))
 async def batch(c, m: Message):
-
-    if m.from_user.id not in ADMINS:
-        return await m.reply_text("Works only for admins")
 
     user_id = m.from_user.id
     user = await get_user(user_id)
