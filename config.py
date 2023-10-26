@@ -34,7 +34,7 @@ BROADCAST_AS_COPY = is_enabled((os.environ.get("BROADCAST_AS_COPY", "False")), F
 IS_PRIVATE = is_enabled(os.environ.get("IS_PRIVATE", "False"), "False")  # true for private use and restricting users
 SOURCE_CODE = os.environ.get("SOURCE_CODE", "https://t.me/KingVj01")  # for upstream repo 
 # image when someone hit /start
-WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", "")
+WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", "https://te.legra.ph/file/119729ea3cdce4fefb6a1.jpg")
 LINK_BYPASS = is_enabled((os.environ.get("LINK_BYPASS", "False")), False)  # if true, urls will be bypassed
 # your shortener site domain
 BASE_SITE = os.environ.get("BASE_SITE", "MoneyKamalo.com")
