@@ -11,17 +11,19 @@ For example: <code>/batch -100xxx</code>
 I'll handle the rest and get those links shortened or converted in a short time! 💪
 """
 
-START_MESSAGE = """Hi there {} 
+START_MESSAGE = """<b>Hi there {}</b>
 
-Send me a link or post and I'll shorten it for you!
+<b>Send me a link or post and I'll shorten it for you.</b>
 
-To learn more about what I can do, just type /help.
+<b>If You Want To Create A Bot Like This Paid, Dm - @KingVJ01</b>
+
+<b>To learn more about what I can do, just type /help.</b>
 
 Method: {}
 Shortener website: {}
 """
 
-HELP_MESSAGE = """Hey there! My name is {firstname} and I'm a link convertor and shortener bot here to make your work easier and help you earn more 💰.
+HELP_MESSAGE = """<b>Hey there! My name is {firstname} and I'm a link convertor and shortener bot here to make your work easier and help you earn more 💰.
 
 I have a ton of handy features to help you out, such as:
 
@@ -38,7 +40,7 @@ Useful commands:
 
 - /start: Start me up! You probably already used this.
 - /help: Send this message; I'll tell you more about myself!
-- /batch -100xxx: To shorten or convert all posts in your channel
+- /batch -100xxx: To shorten or convert all posts in your channel</b>
 """
 
 ABOUT_TEXT = """
@@ -48,9 +50,9 @@ ABOUT_TEXT = """
     
 `📝 Language:` [Python 3](https://www.python.org/)
 `🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)
-`👨‍💻 Developer:` [Dev](t.me/ask_admin001)
-`📢 Support:` [Talk Bot](https://t.me/ask_admin001)
-`🌐 Source Code:` [GitHub](https://github.com/kevinnadar22/URL-Shortener-V2/)
+`👨‍💻 Developer:` [Dev](t.me/KingVj01)
+`📢 Support:` [Talk Bot](https://t.me/Vjbots_bot)
+`🌐 Source Code:` [Owner](t.me/KingVj01)
 """
 
 
